@@ -1,6 +1,10 @@
 add_library(core STATIC
   src/core.cpp
-  include/core/core.h
+  src/snapshot_builder.cpp
+  private_include/snapshot_builder.h
+  include/core/snapshot.h
+  include/core/structs.h
+  include/core/providers.h
 )
 
 target_include_directories(core 
