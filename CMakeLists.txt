@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 enable_testing()
 
 add_subdirectory(core)
-#add_subdirectory(platform)
+add_subdirectory(platform)
 add_subdirectory(monitord)
 #add_subdirectory(cli)
 add_subdirectory(tests)
